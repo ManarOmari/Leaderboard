@@ -1,9 +1,8 @@
 import './style.css';
-import { leaderBoard } from "./scores.js";
-import Scores from "./show.js";
+import { leaderBoard } from './scores.js';
+import Scores from './show.js';
 
 const form = document.querySelector('.add-score');
-const submit = document.querySelector('#btn');
 const refresh = document.querySelector('#refresh');
 const newUrl = 'https://us-central1-js-capstone-backend.cloudfunctions.net/api/games/YWeqzTn9QGXjVzrbdb8U/scores/';
 
