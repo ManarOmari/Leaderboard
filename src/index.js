@@ -3,10 +3,8 @@ import { leaderBoard } from './scores.js';
 import Scores from './show.js';
 
 const form = document.querySelector('.add-score');
-const submit = document.querySelector('#btn');
 const refresh = document.querySelector('#refresh');
-const newUrl =
-  'https://us-central1-js-capstone-backend.cloudfunctions.net/api/games/Zl4d7IVkemOTTVg23Udz/scores/';
+const newUrl = 'https://us-central1-js-capstone-backend.cloudfunctions.net/api/games/Zl4d7IVkemOTTVg23Udz/scores/';
 const user = document.querySelector('.name');
 const score = document.querySelector('.score');
 
