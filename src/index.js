@@ -1,4 +1,4 @@
-import './style.css";
+import './style.css';
 import { leaderBoard } from "./scores.js";
 import Scores from "./show.js";
 
