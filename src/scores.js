@@ -1,6 +1,6 @@
 /* eslint-disable import/prefer-default-export */
 const url = 'https://us-central1-js-capstone-backend.cloudfunctions.net/api/';
-const id = 'Zl4d7IVkemOTTVg23Udz';
+const id = 'YWeqzTn9QGXjVzrbdb8U';
 const identifierUrl = `${url}games/${id}/scores/`;
 
 const leaderBoard = async (user, userScore) => {

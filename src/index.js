@@ -4,7 +4,8 @@ import Scores from './show.js';
 
 const form = document.querySelector('.add-score');
 const refresh = document.querySelector('#refresh');
-const newUrl = 'https://us-central1-js-capstone-backend.cloudfunctions.net/api/games/Zl4d7IVkemOTTVg23Udz/scores/';
+const newUrl = 'https://us-central1-js-capstone-backend.cloudfunctions.net/api/games/YWeqzTn9QGXjVzrbdb8U/scores/';
+
 const user = document.querySelector('.name');
 const score = document.querySelector('.score');
 
